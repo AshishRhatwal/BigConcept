@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mra.com.bigconcept.ListActivity">
+
+    <TextView
+        android:id="@+id/tx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Details"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightgray"
+        android:layout_below="@id/tx"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_below="@id/tx"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp">
+
+    </ListView>
+
+</RelativeLayout>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mra.com.bigconcept.NewuserActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/Layout_OTP1"
+        >
+
+
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="wrap_content"
+            android:layout_height="195dp"
+            android:background="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/tx1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:text="Register New User"
+            android:textSize="40dp"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/tx1"
+            android:text="DemoApplication"
+            android:textSize="30dp"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="@color/white"
+            />
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical">
+
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/uname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-light"
+                android:hint="Enter Name"
+                android:inputType="textEmailAddress"
+                android:padding="10dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:pointerIcon="crosshair"
+                android:textColor="@color/gray"
+                android:textColorHint="@color/lightgray"
+                android:textSize="15dp"
+                app:met_clearButton="true"
+                app:met_errorColor="@color/red"
+                app:met_iconPadding="2dp" />
+
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/number"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-light"
+                android:hint="Enter Mobile Number"
+                android:inputType="number"
+                android:padding="10dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:textColor="@color/gray"
+                android:textColorHint="@color/lightgray"
+                android:textSize="15dp"
+                app:met_clearButton="true"
+                app:met_errorColor="@color/red"
+                app:met_iconPadding="2dp" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-light"
+                android:hint="Enter Email Number"
+                android:inputType="textEmailAddress"
+                android:padding="10dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:textColor="@color/gray"
+                android:textColorHint="@color/lightgray"
+                android:textSize="15dp"
+                app:met_clearButton="true"
+                app:met_errorColor="@color/red"
+                app:met_iconPadding="2dp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/LoginUser"
+            android:layout_below="@id/linearLayout"
+            android:layout_marginTop="35dp"
+            android:layout_width="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="50dp"
+            android:text="Register"
+            android:textStyle="bold"
+            android:background="@color/darkoranger"
+            />
+
+    </RelativeLayout>
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
